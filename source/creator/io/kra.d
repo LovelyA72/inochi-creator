@@ -26,7 +26,7 @@ bool incImportShowKRADialog() {
     string file = incShowImportDialog(filters, _("Import..."));
 
     if (file) {
-        incImportKRA(file, IncKRAImportSettings(false));
+        incImportKRA(file, IncKRAImportSettings(true));
         return true;
     }
     return false;
