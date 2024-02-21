@@ -26,7 +26,7 @@ bool incImportShowPSDDialog() {
     string file = incShowImportDialog(filters, _("Import..."));
 
     if (file) {
-        incImportPSD(file, IncPSDImportSettings(false));
+        incImportPSD(file, IncPSDImportSettings(true));
         return true;
     }
     return false;
