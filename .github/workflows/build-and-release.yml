@@ -5,6 +5,7 @@
 name: Build & Release
 
 on:
+  workflow_dispatch:
   push:
     # Push all normally versioned tags
     # Ignore release candidates!
